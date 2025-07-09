@@ -53,3 +53,5 @@ Feature: The Internet Guinea Pig Website
       | Typos                         |                   |
       | WYSIWYG Editor                |                   |
     
+# it is unclear if the page names in the app should match or if the "page" is simply an alias and can have A
+# separate/distinct heading
