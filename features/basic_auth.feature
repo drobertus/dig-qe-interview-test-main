@@ -9,3 +9,6 @@ Feature: The Internet Guinea Pig Website
       | username | password | message                                                |
       | admin    | admin    | Congratulations! You must have the proper credentials. |
       | foo      | bar      | not authorized                                         |
+
+# the failure of the second scenario suggests that either the specs are wildly incorrect or the error 
+# scenario for the page has not been coded properly.

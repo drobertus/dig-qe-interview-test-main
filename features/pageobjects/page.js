@@ -56,7 +56,6 @@ export default class Page {
       "Slow Resources": "slow",
       "Sortable Data Tables": "tables",
       "Status Codes": "status_codes",
-      
       Typos: "typos",
       "WYSIWYG Editor": "tinymce",
     };
@@ -79,9 +78,7 @@ export default class Page {
    * @param path path of the sub page (e.g. /path/to/page.html)
    */
   open(path = "") {
-    //console.log(`Path = ${this.paths[path]} for ${path}`)
     if (path in this.paths) return this.open(this.paths[path]);
-    //console.log('path not in paths')
     return browser.url(`${this.base}/${path}`);
   }
 }

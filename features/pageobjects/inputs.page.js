@@ -3,8 +3,6 @@ class InputsPage {
     return {
       header: () => $("h3"),
       input: () => $("/html/body/div[2]/div/div/div/div/input"),
-
-         //#content > div > div > div > input[type=number]
     };
   }
 
