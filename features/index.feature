@@ -55,3 +55,5 @@ Feature: The Internet Guinea Pig Website
     
 # it is unclear if the page names in the app should match or if the "page" is simply an alias and can have A
 # separate/distinct heading
+# the failure of this test at a specific point suggests either the app is not able to support the Loaded
+# or the WDIO calls need to improve wait time handling better, or stagger their execution

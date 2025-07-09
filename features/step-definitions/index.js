@@ -31,7 +31,7 @@ When(/^I click the (.+) link$/, async function (page) {
 });
 
 Then(/^I should be directed to the selected page with heading $/, async function () {
- //const headerContent = this.page;
+ const headerContent = this.page;
  // the h3 element is probably a better solution than looking at the entire HTML
  // body as we want structural consistency between pages
  const html = await $("#content > div > h3"); 
